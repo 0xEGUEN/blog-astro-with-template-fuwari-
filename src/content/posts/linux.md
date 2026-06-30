@@ -1,13 +1,12 @@
 ---
 title: Dasar-Dasar Instalasi Arch Linux
-published: 2025-06-15
+published: 2026-06-30
 description: 'Panduan langkah demi langkah instalasi Arch Linux untuk pemula'
 image: "https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png"
 tags: [Linux, Arch, Tutorial]
 category: 'Linux'
 draft: false
 ---
-
 ## Apa Itu Arch Linux?
 
 Arch Linux adalah distribusi Linux *rolling release* yang terkenal dengan filosofi **KISS** (*Keep It Simple, Stupid*). Berbeda dengan distro seperti Ubuntu atau Fedora, Arch memberikan kendali penuh kepada pengguna sejak awal instalasi.
@@ -19,7 +18,7 @@ Sebelum memulai, pastikan kamu memiliki:
 - Koneksi internet yang stabil
 - USB flash drive (minimal 2GB)
 - Komputer dengan arsitektur x86_64 (64-bit)
-- Cadangan data penting (instalasi akan memformat硬盘)
+- Cadangan data penting (instalasi akan memformat data)
 
 ## 1. Unduh dan Buat Media Instalasi
 
@@ -29,7 +28,6 @@ Pertama, unduh ISO Arch Linux dari situs resmi:
 # Download ISO
 wget https://archlinux.org/releng/releases/2025.06.01/torrent/archlinux-2025.06.01-x86_64.iso.torrent
 ```
-
 Buat bootable USB menggunakan `dd` (di Linux):
 
 ```bash
