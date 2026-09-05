@@ -156,6 +156,8 @@ export default defineConfig({
 	},
 	vite: {
 		build: {
+			// lightningcss currently fails on the generated nested CSS.
+			cssMinify: false,
 			rollupOptions: {
 				onwarn(warning, warn) {
 					// temporarily suppress this warning
